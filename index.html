@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vahe & Rick</title>
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        body {
+            background: black;
+            color: #00ffcc;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        img,
+        p,
+        button {
+            opacity: 0;
+            animation: fadeIn 1.2s ease-in-out forwards;
+        }
+
+        h1 {
+            font-size: 2.8em;
+            text-shadow: 0 0 10px #00ffcc;
+            margin-bottom: 10px;
+            animation-delay: 0s;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 12px;
+            animation-delay: 0.3s;
+        }
+
+        p {
+            font-size: 1.3em;
+            margin: 25px 0;
+            animation-delay: 0.6s;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 1.1em;
+            border: none;
+            background-color: #00ffcc;
+            color: black;
+            cursor: pointer;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 20px #00ffcc;
+            animation-delay: 0.9s;
+        }
+
+        button:hover {
+            background-color: #00e0aa;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hi, I'm Vahe</h1>
+
+    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2p2cGM1NzNybzZ3MGt1aTJjdTJzNm5lN3o2MmUyc2tlN2tsMGRmNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YO45ydzTCoHdoR074O/giphy.gif"
+        alt="Rick Sanchez" />
+
+    <p>And I'm about to tell you why Rick Sanchez is an actual icon.</p>
+
+    <button onclick="window.location.href='rick.html'">Let’s go!</button>
+</body>
+
+</html>

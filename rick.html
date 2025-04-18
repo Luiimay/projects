@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick Sanchez Lore</title>
+    <style>
+        body {
+            background: black;
+            color: #00ffcc;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            padding: 50px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h1 {
+            font-size: 2.8em;
+            text-shadow: 0 0 12px #00ffcc;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            max-width: 700px;
+            margin: 0 auto 40px;
+            line-height: 1.6;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 300px;
+            margin: 40px auto;
+        }
+
+        .portal-button {
+            background-color: #00ffcc;
+            color: black;
+            border: none;
+            padding: 15px;
+            font-size: 1.1em;
+            cursor: pointer;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #00ffcc;
+            transition: transform 0.3s ease;
+        }
+
+        .portal-button:hover {
+            transform: scale(1.05);
+            background-color: #00e0aa;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Who is Rick Sanchez?</h1>
+
+    <p>
+        Before you judge Rick, you need to understand him.
+        He’s not a hero. He’s not a villain.
+        He’s a chaotic genius, a galactic fugitive, a grandfather, and the most dangerous mind in the multiverse.
+    </p>
+
+    <div class="button-container">
+        <button class="portal-button" onclick="location.href='rick-gallery.html'">🖼 Rick Gallery</button>
+        <button class="portal-button" onclick="location.href='rick-quotes.html'">💬 Rick's Quotes </button>
+        <button class="portal-button" onclick="location.href='rick-variants.html'">👾 Ricks from Other
+            Universes</button>
+    </div>
+
+    <p>
+        Rick Sanchez is a man of science, war, and emotional collapse.
+        He builds portals, destroys governments, and hides a lifetime of pain behind sarcasm and vodka.
+        The question isn't "Who is Rick?" but rather: "Can anyone ever really know him?"
+    </p>
+</body>
+
+</html>
